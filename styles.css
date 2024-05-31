@@ -1,1 +1,45 @@
-/*  your css code here. If applicable */
+.progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative; /* Add position relative for line positioning */
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white; /* Change background color to white */
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 2px solid grey; /* Add border */
+    color: grey; /* Set text color to grey */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+.circle.active {
+    background-color: blue;
+    color: white;
+    border-color: blue; /* Set border color to blue */
+}
+
+button {
+    margin: 0 5px;
+	/* align-items: center */
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px; /* Add border radius */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
